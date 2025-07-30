@@ -96,7 +96,7 @@ export default function Home() {
             />
             {/* Image for smaller screens */}
             <Image 
-              src="/images/cover-img.png" 
+              src={coverImg} 
               loading="lazy" 
               width={350} 
               height={311} // Adjusted height to maintain aspect ratio for the new width
