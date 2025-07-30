@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="74px" viewBox="0 0 74 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#03E1CB" offset="0%"></stop>
+            <stop stop-color="#00AEE5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="73.3882657%" x2="100%" y2="26.6117343%" id="linearGradient-2">
+            <stop stop-color="#F1E8F7" offset="0%"></stop>
+            <stop stop-color="#DECCED" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="69.7093583%" x2="100%" y2="30.2906417%" id="linearGradient-3">
+            <stop stop-color="#F1E8F7" offset="0%"></stop>
+            <stop stop-color="#FBF6FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <polygon id="Rectangle" fill="#B093C8" points="0 28 18.7890118 15.1308138 54.3978425 14.931895 74 28 37 51"></polygon>
+            <path d="M10.5638852,-6.90560205e-17 L63.4361148,1.03584031e-16 C64.3276335,-6.01853049e-17 64.6509198,0.0928256112 64.9768457,0.267132704 C65.3027716,0.441439796 65.5585602,0.697228371 65.7328673,1.0231543 C65.9071744,1.34908022 66,1.67236646 66,2.5638852 L66,54 L66,54 L8,54 L8,2.5638852 C8,1.67236646 8.09282561,1.34908022 8.2671327,1.0231543 C8.4414398,0.697228371 8.69722837,0.441439796 9.0231543,0.267132704 C9.34908022,0.0928256112 9.67236646,4.01235366e-17 10.5638852,-6.90560205e-17 Z" id="Rectangle" fill="url(#linearGradient-1)"></path>
+            <path d="M67.2579807,28 L67.2579807,72 C67.2579807,73.1045695 66.3625502,74 65.2579807,74 L2.56790715,74 L2.56790715,74 L0,69.809015 L67.2579807,28 Z" id="Rectangle" fill="url(#linearGradient-2)" transform="translate(33.629, 51) scale(-1, 1) translate(-33.629, -51)"></path>
+            <path d="M74,28 L74,72 C74,73.1045695 73.1045695,74 72,74 L2.00561523,74 L2.00561523,74 L1.88691757,73.9924176 C1.46536672,73.9654888 1.06244216,73.808925 0.733306732,73.5441607 L0.733306732,73.5441607 L0.733306732,73.5441607 L74,28 Z" id="Rectangle" fill="url(#linearGradient-3)"></path>
+            <polyline id="Path" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" points="30 22.7499253 35.9692806 28 46 17"></polyline>
+        </g>
+    </g>
+</svg>
