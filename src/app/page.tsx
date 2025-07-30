@@ -299,12 +299,7 @@ export default function Home() {
                 <h1 className="text-3xl font-bold text-purple-600 mb-4">
                   MyPulse AI<br />Generation Tool ✨
                 </h1>
-                <div className="relative w-full flex justify-center items-center my-4">
-                    {/* For smaller screens */}
-                    <Image src={changeMobile} alt="Arrow pointing right" width={40} height={40} className="lg:hidden" />
-                    {/* For larger screens */}
-                    <Image src={change} alt="Arrow pointing right" width={100} height={50} className="hidden lg:block" />
-                </div>
+                
                 <ul className="mt-4 space-y-3 text-left">
                   <li className="flex items-start">
                     <Image src={arrow} alt="arrow icon" width={20} height={20} className="mr-3 mt-1" />
