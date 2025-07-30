@@ -325,9 +325,9 @@ export default function Home() {
 
       <div className="flex justify-center">
         <Compare
-          firstImage={compare.src} // Final Look (After) - shows when slider is to the left
-          secondImage={compare2.src} // Preview Look (Before) - shows when slider is to the right
-          className="w-[350px] h-[600px]"
+          firstImage={compare2.src} // Final Look (After) - shows when slider is to the left
+          secondImage={compare.src} // Preview Look (Before) - shows when slider is to the right
+          className="w-[300px] h-[600px]"
           slideMode="drag"
           showHandlebar={true}
           initialSliderPercentage={30} // Start showing more of the "Final Look"
