@@ -180,7 +180,7 @@ export default function Home() {
               </div>
             </div>
             <div className="hidden lg:flex flex-col items-center">
-              <Image src={manWorking2} loading="lazy" width={350} height={350} alt="Man at computer optimizing keywords" className="rounded-lg shadow-lg" />
+              <Image src={manWorking1} loading="lazy" width={350} height={350} alt="Man at computer optimizing keywords" className="rounded-lg shadow-lg" />
               <p className="mt-4 text-sm text-white italic text-center max-w-sm">Prompt: Watch the magic unfold! In just seconds, MyPulse’s AI Assistant crafts stunning, SEO-optimized product descriptions that get your products noticed.</p>
             </div>
           </div>
