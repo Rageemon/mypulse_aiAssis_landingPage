@@ -14,9 +14,9 @@ const Header = () => {
       { name: 'About us', href: '/about-us' },
     ];
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 py-2 px-6 bg-black/20 backdrop-blur-md border-b border-white/10">
+    <header className="fixed top-0 left-0 right-0 z-50 py-4 px-6 bg-black/20 backdrop-blur-md border-b border-white/10">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <img src="/images/logo.svg" loading="lazy" alt="MyPulse. Smart analytics is simple" className="h-10 w-auto mr-2 drop-shadow-lg rounded" />
+        <img src="/images/logo.svg" loading="lazy" alt="MyPulse. Smart analytics is simple" className="h-14 w-auto mr-2 drop-shadow-lg rounded" />
         
 
         {/* Navigation */}
@@ -27,7 +27,7 @@ const Header = () => {
         </nav>
 
         {/* CTA Buttons */}
-        <div className="flex items-center gap-4">
+        <div className="hidden md:flex items-center gap-4">
           <Button
             variant="outline"
             className="border border-purple-500 text-purple-500 bg-transparent hover:bg-purple-500 hover:text-black transition-colors rounded px-4 py-2 font-semibold"
@@ -43,18 +43,15 @@ const Header = () => {
         </div>
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild className="md:hidden">
-            <Button variant="outline" size="sm">
+            <Button variant="ghost" size="sm">
               <Menu className="h-5 w-5" />
             </Button>
           </SheetTrigger>
-          <SheetContent side="right">
+          <SheetContent side="right" className="backdrop-blur-md bg-black/20">
             <SheetHeader>
               <SheetTitle className="flex items-center space-x-2">
-                <div className="flex items-center justify-center w-8 h-8 bg-primary rounded-md">
-                  <GraduationCap className="h-4 w-4 text-primary-foreground" />
-                </div>
-                <span className="text-lg text-primary">
-                  Zirofy Tutorial
+                <span className="text-lg text-white">
+                  mypulse
                 </span>
               </SheetTitle>
             </SheetHeader>
